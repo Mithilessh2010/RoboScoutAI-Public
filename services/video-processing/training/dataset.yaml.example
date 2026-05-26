@@ -1,0 +1,7 @@
+path: ./datasets/decode
+train: images/train
+val: images/val
+names:
+  0: artifact
+  1: robot
+  2: scoring_structure

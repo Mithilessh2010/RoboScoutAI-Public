@@ -1,0 +1,18 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: packages/web/Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      PUBLIC_FRONTEND_URL: "https://roboscoutai-web.vercel.app"
+
+  autoscore-worker:
+    build:
+      context: .
+      dockerfile: services/autoscore-worker/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      PUBLIC_BASE_URL: "http://localhost:8080"

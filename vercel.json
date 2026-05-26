@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build -w packages/web",
+  "outputDirectory": "packages/web/dist",
+  "rewrites": [
+    {
+      "source": "/api/autoscore/:path*",
+      "destination": "/api/autoscore"
+    }
+  ]
+}

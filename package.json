@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "npm run dev -w packages/web",
     "build": "npm run build -w packages/web",
-    "check": "npm run check -w packages/web",
+    "check": "npm run check -w packages/web && npm run check -w packages/server",
     "preview": "npm run preview -w packages/web"
   },
   "keywords": [

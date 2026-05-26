@@ -10,9 +10,13 @@
     "check": "echo \"Public scaffold check complete\""
   },
   "dependencies": {
+    "@sveltejs/adapter-auto": "latest",
     "@sveltejs/kit": "latest",
+    "@sveltejs/vite-plugin-svelte": "latest",
     "svelte": "latest",
     "vite": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vitest": "latest"
+  }
 }

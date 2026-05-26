@@ -1,0 +1,27 @@
+{
+  "matchName": "Qualification 42",
+  "redAlliance": {
+    "score": 92,
+    "auto": 18,
+    "teleop": 74
+  },
+  "blueAlliance": {
+    "score": 69,
+    "auto": 12,
+    "teleop": 57
+  },
+  "events": [
+    {
+      "timestamp": 12.4,
+      "alliance": "red",
+      "type": "classified",
+      "points": 3
+    },
+    {
+      "timestamp": 44.9,
+      "alliance": "blue",
+      "type": "classified",
+      "points": 1
+    }
+  ]
+}
