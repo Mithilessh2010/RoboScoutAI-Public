@@ -40,3 +40,4 @@ Then visit `http://localhost:8080`.
 ## Notes
 
 The production app and supporting services are hosted separately. This repository is intended for public review, project presentation, and submission materials.
+Codex helped with the making of this website
