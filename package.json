@@ -1,0 +1,23 @@
+{
+  "name": "roboscoutai-public",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Public project structure for RoboScoutAI scouting and match review.",
+  "workspaces": [
+    "packages/web",
+    "packages/server"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w packages/web",
+    "build": "npm run build -w packages/web",
+    "check": "npm run check -w packages/web",
+    "preview": "npm run preview -w packages/web"
+  },
+  "keywords": [
+    "robotics",
+    "scouting",
+    "ftc",
+    "match-review"
+  ],
+  "license": "MIT"
+}

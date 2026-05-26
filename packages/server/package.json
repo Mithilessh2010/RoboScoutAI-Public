@@ -1,0 +1,10 @@
+{
+  "name": "@roboscoutai/server-public",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "check": "echo \"Public server scaffold check complete\""
+  }
+}
